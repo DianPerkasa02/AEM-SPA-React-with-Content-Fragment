@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/spa-react-with-content-fragment",
+        "create path (nt:unstructured) /content/dam/spa-react-with-content-fragment/jcr:content",
+        "set properties on /content/dam/spa-react-with-content-fragment/jcr:content\n  set cq:conf{String} to /conf/spa-react-with-content-fragment\n  set jcr:title{String} to \"SPA React with Content Fragment\"\nend"
+    ]
+}

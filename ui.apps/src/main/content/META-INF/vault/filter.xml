@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/spa-react-with-content-fragment/clientlibs"/>
+    <filter root="/apps/spa-react-with-content-fragment/components"/>
+    <filter root="/apps/spa-react-with-content-fragment/i18n"/>
+</workspaceFilter>

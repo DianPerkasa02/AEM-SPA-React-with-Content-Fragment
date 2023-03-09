@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/spa-react-with-content-fragment" mode="merge"/>
+    <filter root="/content/spa-react-with-content-fragment" mode="merge"/>
+    <filter root="/content/dam/spa-react-with-content-fragment/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/spa-react-with-content-fragment" mode="merge"/>
+</workspaceFilter>
