@@ -1,0 +1,41 @@
+{
+  "xmlns:jcr": "http://www.jcp.org/jcr/1.0",
+  "xmlns:nt": "http://www.jcp.org/jcr/nt/1.0",
+  "xmlns:cq": "http://www.day.com/jcr/cq/1.0",
+  "xmlns:sling": "http://sling.apache.org/jcr/sling/1.0",
+  "jcr:primaryType": "cq:Page",
+  "jcr:content": {
+    "cq:lastModified": "{Date}2023-03-10T13:16:34.982+07:00",
+    "cq:lastModifiedBy": "admin",
+    "cq:template": "/conf/spa-react-with-content-fragment/settings/wcm/templates/spa-page-template",
+    "jcr:primaryType": "cq:PageContent",
+    "jcr:title": "SPA React with Content Fragment Home Page",
+    "sling:resourceType": "spa-react-with-content-fragment/components/page",
+    "root": {
+      "jcr:primaryType": "nt:unstructured",
+      "sling:resourceType": "wcm/foundation/components/responsivegrid",
+      "responsivegrid": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "wcm/foundation/components/responsivegrid",
+        "text": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "spa-react-with-content-fragment/components/text",
+          "text": "<p>Hello World!</p>",
+          "textIsRich": "true",
+          "cq:responsive": {
+            "jcr:primaryType": "nt:unstructured",
+            "self-closing": "true"
+          }
+        },
+        "productdetail": {
+          "jcr:lastModified": "{Date}2023-03-10T13:16:34.977+07:00",
+          "jcr:lastModifiedBy": "admin",
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "spa-react-with-content-fragment/components/contentfragments/productdetail",
+          "productDetailCFPath": "/content/dam/spa-react-with-content-fragment/content-fragment/product-details/test-product",
+          "self-closing": "true"
+        }
+      }
+    }
+  }
+}

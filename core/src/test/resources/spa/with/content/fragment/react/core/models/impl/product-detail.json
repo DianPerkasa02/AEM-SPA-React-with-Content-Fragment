@@ -1,0 +1,68 @@
+{
+    "xmlns:jcr": "http://www.jcp.org/jcr/1.0",
+    "xmlns:dam": "http://www.day.com/dam/1.0",
+    "xmlns:nt": "http://www.jcp.org/jcr/nt/1.0",
+    "xmlns:mix": "http://www.jcp.org/jcr/mix/1.0",
+    "xmlns:cq": "http://www.day.com/jcr/cq/1.0",
+    "jcr:isCheckedOut": "{Boolean}true",
+    "jcr:mixinTypes": "[mix:referenceable,mix:versionable]",
+    "jcr:primaryType": "dam:Asset",
+    "jcr:uuid": "b447eea8-1a31-497c-9b97-83a32bea0a0f",
+    "jcr:content": {
+        "cq:name": "test-product",
+        "cq:parentPath": "/content/dam/spa-react-with-content-fragment/content-fragment/product-details",
+        "jcr:lastModified": "{Date}2023-03-10T13:16:18.993+07:00",
+        "jcr:lastModifiedBy": "admin",
+        "jcr:primaryType": "dam:AssetContent",
+        "jcr:title": "Test Product",
+        "contentFragment": "{Boolean}true",
+        "lastFragmentSave": "{Date}2023-03-10T13:16:18.993+07:00",
+        "data": {
+            "cq:model": "/conf/spa-react-with-content-fragment/settings/dam/cfm/models/product-detail-model",
+            "jcr:primaryType": "nt:unstructured",
+            "_strucVersion": "{Long}1",
+            "master": {
+                "jcr:mixinTypes": "[cq:Taggable,dam:cfVariationNode]",
+                "jcr:primaryType": "nt:unstructured",
+                "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue nunc felis, vitae porta nibh rhoncus eget. Proin sodales id nulla vitae fermentum. Proin sem arcu, vulputate id dictum non, varius eget tellus. Donec ac turpis sit amet ligula pretium tempus. Aenean vel turpis sem. Curabitur lectus nibh, congue auctor porta id, congue eget turpis. Nullam a varius lacus. Phasellus ullamcorper risus ac felis sagittis, eu fringilla velit volutpat. Morbi congue placerat lobortis. Praesent non hendrerit sem, eget efficitur nisl. Aenean lobortis risus at justo varius fringilla. Vivamus commodo commodo lorem, consectetur malesuada turpis bibendum vel. Nunc finibus accumsan viverra. Maecenas sollicitudin lacinia turpis eget tempus. Sed lectus odio, porttitor at magna a, sodales rutrum urna. Curabitur pellentesque pulvinar ligula.</p>&#xa;<p>Phasellus pellentesque ante dignissim consequat egestas. Phasellus vitae fermentum tortor. Curabitur eu blandit sem, id convallis felis. Suspendisse dolor lacus, tincidunt eget ante eget, feugiat dapibus augue. Nunc tincidunt dignissim consectetur. Etiam turpis urna, interdum non mollis sit amet, fermentum et odio. Duis nulla tortor, tincidunt venenatis lacinia sit amet, sagittis sed tellus. Etiam porta nulla leo, vel fermentum lectus ultricies non. Praesent mollis metus ultricies placerat suscipit. Integer non facilisis nisi. Quisque convallis pellentesque metus nec rutrum. Sed quis urna imperdiet, vehicula tortor in, ultricies urna. Morbi condimentum metus a diam vulputate venenatis. Morbi dignissim nulla et mauris tristique feugiat. Proin accumsan pulvinar commodo. Morbi faucibus, orci a sodales vulputate, purus orci lacinia nulla, nec dapibus mi diam et tortor.</p>&#xa;",
+                "description_x0040_ContentType": "text/html",
+                "description_x0040_LastModified": "{Date}2023-03-10T13:16:18.771+07:00",
+                "openInNewTab": "true",
+                "openInNewTab_x0040_LastModified": "{Date}2023-03-10T13:16:18.773+07:00",
+                "productName": "Test Product Name",
+                "productName_x0040_LastModified": "{Date}2023-03-10T13:16:18.769+07:00",
+                "sku": "SKU123",
+                "sku_x0040_LastModified": "{Date}2023-03-10T13:16:18.770+07:00",
+                "url": "https://google.com",
+                "url_x0040_LastModified": "{Date}2023-03-10T13:16:18.773+07:00",
+                "self-closing": "true"
+            }
+        },
+        "indexedData": {
+            "jcr:primaryType": "nt:unstructured",
+            "master": {
+                "jcr:mixinTypes": "[dam:IndexedFragmentData]",
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:uuid": "333b8eb8-06d6-4a56-960d-624a5bc18788",
+                "_x0040_string_x0040_model": "/conf/spa-react-with-content-fragment/settings/dam/cfm/models/product-detail-model",
+                "_x0040_stringArray_x0040_variations": "[]",
+                "boolean_x0040_openInNewTab": "{Boolean}true",
+                "string_x0040_description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue nunc felis, vitae porta nibh rhoncus eget. Proin sodales id nulla vitae fermentum. Proin sem arcu, vulputate id dictum non, varius eget tellus. Donec ac turpis sit amet ligula pretium tempus. Aenean vel turpis sem. Curabitur lectus nibh, congue auctor porta id, congue eget turpis. Nullam a varius lacus. Phasellus ullamcorper risus ac felis sagittis, eu fringilla velit volutpat. Morbi congue placerat lobortis. Praesent non hendrerit sem, eget efficitur nisl. Aenean lobortis risus at justo varius fringilla. Vivamus commodo commodo lorem, consectetur malesuada turpis bibendum vel. Nunc finibus accumsan viverra. Maecenas sollicitudin lacinia turpis eget tempus. Sed lectus odio, porttitor at magna a, sodales rutrum urna. Curabitur pellentesque pulvinar ligula.</p>&#xa;<p>Phasellus pellentesque ante dignissim consequat egestas. Phasellus vitae fermentum tortor. Curabitur eu blandit sem, id convallis felis. Suspendisse dolor lacus, tincidunt eget ante eget, feugiat dapibus augue. Nunc tincidunt dignissim consectetur. Etiam turpis urna, interdum non mollis sit amet, fermentum et odio. Duis nulla tortor, tincidunt venenatis lacinia sit amet, sagittis sed tellus. Etiam porta nulla leo, vel fermentum lectus ultricies non. Praesent mollis metus ultricies placerat suscipit. Integer non facilisis nisi. Quisque convallis pellentesque metus nec rutrum. Sed quis urna imperdiet, vehicula tortor in, ultricies urna. Morbi condimentum metus a diam vulputate venenatis. Morbi dignissim nulla et mauris tristique feugiat. Proin accumsan pulvinar commodo. Morbi faucibus, orci a sodales vulputate, purus orci lacinia nulla, nec dapibus mi diam et tortor.</p>&#xa;",
+                "string_x0040_productName": "Test Product Name",
+                "string_x0040_sku": "SKU123",
+                "string_x0040_url": "https://google.com",
+                "self-closing": "true"
+            }
+        },
+        "metadata": {
+            "jcr:mixinTypes": "[cq:Taggable]",
+            "jcr:primaryType": "nt:unstructured",
+            "self-closing": "true"
+        },
+        "related": {
+            "jcr:primaryType": "nt:unstructured",
+            "self-closing": "true"
+        }
+    }
+
+}
